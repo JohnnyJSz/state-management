@@ -23,8 +23,10 @@ const AddMovie = () => {
     return (
         <form onSubmit={addMovie}>
             <input placeholder='title here' type='text' name='name' value={name} onChange={updateName}/>
+            <br/>
             <input placeholder='price here' type='text' name='price' value={price} onChange={updatePrice}/>
-            <button>Submit</button>
+            <br/>
+            <button>Add a movie</button>
         </form>
     );
 };
