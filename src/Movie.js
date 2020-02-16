@@ -5,7 +5,6 @@ const Movie = (props) => {
         <>
             <h1>{props.name}</h1>
             <h3>Price: {props.price}</h3>
-            <p>Id: {props.id}</p>
         </>
     );
 };
